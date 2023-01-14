@@ -1,0 +1,80 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+*{
+    color:white;
+    font-family: 'Montserrat';
+}  
+
+.logo{
+    width: 80px;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 50px;
+}
+.line{
+    border-left: 2px solid white;
+    height: 30px;
+    margin-right: 30px;
+}
+body{
+    background-image:url("./assets/bg.png");
+    margin: 0; /* Add margin: 0px; to body like below. The reason is because body by default introduces a margin. */
+}
+nav {
+    display: flex;
+    align-items:center;
+}
+.navbar{
+    background-color: black;
+}
+nav div ul{
+    display: flex;
+    align-items: center;
+}
+
+nav div ul li {
+    list-style: none;
+    margin-right: 40px;
+    /* gap: 50px; */
+    font-weight: 500;
+} 
+
+.button-small{
+    margin-left: 450px;
+    border: none;
+    padding: 7px 20px;
+    background-color: #d73dcde0;
+    border-radius: 2px;
+    font-weight: 400px; 
+    width: max-content;
+}
+
+.hero{
+    margin-left:280px;
+    margin-right:350px;
+    margin-top:140px;
+    width:60%;
+}
+
+.hero-heading{
+    font-size:65px;
+    text-align: center;
+}
+.hero-description{
+    text-align: center;
+    margin-top: -30px;
+    font-size: 30px;
+}
+
+.button-large{
+    margin-left: 290px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    background-color: #e317d9e0;
+    border-radius: 5px;
+    color: white;
+    font-weight: 1000;
+    font-size: 20px;
+}
